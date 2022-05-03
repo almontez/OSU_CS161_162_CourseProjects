@@ -1,0 +1,6 @@
+game = TheThreeGame()
+print('First_player: First_Turn')
+print(game.make_move('first_player', 15))
+print(game.get_moves('first_player'))
+print(game.get_score('first_player'))
+print(game.get_num_bank())
